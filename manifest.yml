@@ -1,0 +1,10 @@
+applications:
+- path: .
+  memory: 512M
+  instances: 1
+  domain: mybluemix.net
+  name: bber
+  host: bber
+  disk_quota: 1024M
+  services:
+  - bber-personality_insights
